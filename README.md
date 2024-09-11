@@ -57,7 +57,7 @@ Output:
       2. Question Matching (question_matcher.py)
       3. Slack Integration (slack_poster.py)
       4. Main Logic (main.py)
-  2. Each module should be individually testable and reusable in different contexts.
+   2. Each module should be individually testable and reusable in different contexts.
 2. Scalability:
    1. Asynchronous Processing: Use asynchronous processing (asyncio) or job queues like Celery for handling large PDFs or multiple requests simultaneously.
    2. Batch Processing: If many PDFs or large documents need to be processed, consider batch jobs and scalable services like AWS Lambda or Google Cloud Functions.
