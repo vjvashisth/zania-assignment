@@ -1,6 +1,5 @@
 # Zania | Challenge for AI Engineers
 
-## Problem Statement - 
 ## Create an AI Agent that leverages the capabilities of a Large Language Model. 
 
 **Description** - This agent should be able to extract answers based on the content of a large PDF document and post the results on Slack, ideally using OpenAI LLMs. 
