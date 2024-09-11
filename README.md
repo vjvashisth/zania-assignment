@@ -20,10 +20,11 @@ The AI agent will consist of the following components:
 2. **Question Matcher:** To match the input questions against the extracted PDF content using various search strategies.
 3. **Answer Extraction:** To extract the specific answers and format them in a structured JSON blob.
 4. **Slack Integration:** To post the resulting answers in a Slack channel.
+5. **Web Interface:** To upload PDF file, API key and ask questions using an interface.
 
 ## Workflow
 **Input:**
-1. Questions List: A list of questions provided by the user.
+1. Questions: Provided by the user.
 2. PDF File: The PDF document in which the answers to the questions need to be found.
 
 **Processing:**
@@ -67,7 +68,7 @@ The AI agent will consist of the following components:
    1. Implement robust error handling for edge cases such as corrupted PDF files, or missing sections.
    2. Use centralized logging (with logging module or services like ElasticSearch and Kibana) for better debugging and production monitoring.
 4. **Production-Grade Deployment:**
-   1.CI/CD Pipeline: Automate testing, deployment, and updates with a CI/CD pipeline using tools like GitHub Actions, Jenkins, or CircleCI.
+   1. CI/CD Pipeline: Automate testing, deployment, and updates with a CI/CD pipeline using tools like GitHub Actions, Jenkins, or CircleCI.
    2. Containerization: Use Docker to package the solution into containers, making it easier to deploy on cloud platforms or as part of a larger microservices architecture.
    3. API-based Design: Make the solution accessible via APIs (using frameworks like Flask or FastAPI) for easier integration into various systems.
 5. **Security:**
