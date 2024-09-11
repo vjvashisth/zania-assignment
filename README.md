@@ -9,6 +9,7 @@
 **Inputs-**
 1. A list of questions.
 2. A PDF file containing the document over which the questions will be answered.
+   
 **Output-**
 1. structured JSON blob that pairs each question with its corresponding answer
 2. Answers should be word to word match if the question is a word to word match
